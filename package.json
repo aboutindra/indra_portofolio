@@ -1,0 +1,25 @@
+{
+  "name": "indra_portofolio",
+  "version": "0.0.1",
+  "description": "Indra Portofolio Site's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DSC5/indra_portofolio.git"
+  },
+  "author": "Muhammad Indrawan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DSC5/indra_portofolio/issues"
+  },
+  "homepage": "https://github.com/DSC5/indra_portofolio#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongodb": "^3.4.1",
+    "socket.io": "^2.3.0"
+  }
+}
