@@ -1,3 +1,5 @@
+import React from "react";
+
 export default function Side1Index() {
     return(
         <div className="Side1Index">

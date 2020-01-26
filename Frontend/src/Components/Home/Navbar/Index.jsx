@@ -1,3 +1,4 @@
+import React from "react";
 
 export default function NavbarIndex() {
     return(
@@ -5,21 +6,21 @@ export default function NavbarIndex() {
             <div className="col-12">
                 <div className="row">
                     <div className="col-4">
-                        <img className="nav-logo" src={Logo}/>
+                        <img className="nav-logo"/>
                     </div>
                     <div className="col-8">
                         <div className="row">
                             <div className="col-2">
-                                <!-- About Me -->
+                                <p>About me</p>
                             </div>
                             <div className="col-2">
-                                <!-- Main Tech -->
+                                <p>Main tech</p>
                             </div>
                             <div className="col-2">
-                                <!-- Portofolio -->
+                                <p>Portofolio</p>
                             </div>
                             <div className="col-2">
-                                <!-- Contact -->
+                                <p>Contact</p>
                             </div>
                         </div>
                     </div>

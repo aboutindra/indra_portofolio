@@ -5,6 +5,7 @@ import Side3Index from "./Side-3/Index";
 import Side4Index from "./Side-4/Index";
 import Side5Index from "./Side-5/Index";
 import FooterIndex from "./Footer/Index";
+import React from "react";
 
 export default function HomeIndex() {
     return(

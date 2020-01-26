@@ -1,13 +1,9 @@
 import HomeIndex from "./Components/Home/Index";
 
-export const Router =
+export const Routers =
 [
     {
         path : "/",
         component : HomeIndex
-    },
-    {
-        path : "/contact",
-        component : ContactIndex
     }
 ]
