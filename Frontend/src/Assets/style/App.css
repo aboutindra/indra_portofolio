@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600,900&display=swap');
+.App {
+
+}
+
+.em-facepunch,.em-punch{background-image:url("https://twemoji.maxcdn.com/2/72x72/1f44a.png")}.em-facepunch.em-svg,.em-punch.em-svg{background:url("https://twemoji.maxcdn.com/2/72x72/1f44a.png");background-image:url("https://twemoji.maxcdn.com/2/svg/1f44a.svg"),none}
+.em-sunglasses{background-image:url("https://twemoji.maxcdn.com/2/72x72/1f60e.png")}.em-sunglasses.em-svg{background:url("https://twemoji.maxcdn.com/2/72x72/1f60e.png");background-image:url("https://twemoji.maxcdn.com/2/svg/1f60e.svg"),none}
+.em,.em-svg{height:1em;width:1em;background-position:center;background-repeat:no-repeat;background-size:contain;display:inline-block;vertical-align:middle}
+
+mark{
+  background-color: rgba(252, 74, 26, 1);
+  color: white;
+}
+
+.Side1Index{
+  padding-top: 3%;
+  height: 100vh;
+  padding-left: 3%;
+  background-color: rgba(74, 189, 172, 0.15);
+}
+
+.Side1Title{
+  font-family: 'Raleway', sans-serif;
+  font-size: 5em;
+  font-weight: bold;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+.Bg-1Side-1{
+  width: 500px;
+  height: 500px;
+  position: fixed;
+  z-index: -9;
+  right: 0;
+  top: 0;
+  background-color: #4ABDAC;
+  border-radius: 99em 99em 99em 99em;
+}
+.Bg-3Side-1{
+  width: 300px;
+  height: 300px;
+  position: fixed;
+  z-index: -9;
+  right: 25%;
+  top: 35%;
+  background-color: #FC4A1A;
+  border-radius: 99em 99em 99em 99em;
+}
+.Bg-4Side-1{
+  width: 400px;
+  height: 400px;
+  position: fixed;
+  z-index: -9;
+  right: 0%;
+  top: 40%;
+  background-color: #F7B733;
+  border-radius: 99em 99em 99em 99em;
+}
+.highlight{
+  background-color: azure;
+}
+
+.Bg-2Side-1 > img{
+  width: 40%;
+  position: absolute;
+  -webkit-filter: drop-shadow(5px 5px 100px rgba(0, 0, 0, 0.71));
+  filter: drop-shadow(5px 10px 15px rgba(0, 0, 0, 0.71));
+}
+
+.btn{
+  width: 50%;
+  height: 2.5em;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 1.6em;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  color: white;
+}
+
+.btn-orange{
+  background-color: rgba(252, 54, 0, 0.8);
+  transition: background-color 200ms;
+}
+
+.btn-orange:hover{
+  background-color: rgba(252, 54, 0, 0.9);
+}
+
+.btn-orange:active{
+  background-color: rgba(252, 54, 0, 1);
+}
+
+.btn-side1{
+  margin-top: -10%;
+  border-radius: 10em 10em 10em 10em;
+}
+
+.NavbarIndex{
+  position: fixed;
+  left:0;
+  top:0;
+  background-color: #fff;
+  width:100%;
+  text-align:center;
+  font-size:22px;
+  box-shadow: 0px 4px 4px rgba(0,0,0,0.2);
+  transition:top .3s;
+  z-index: 99;
+}
+
+.hide{
+  top: -15%;
+}
+/*
+.NavbarIndex{
+  width: 100%;
+  background-color: #61dafb;
+  position: fixed;
+}*/
+
+.FooterIndex{
+  background-color: aqua;
+}
+
+.col-1 {
+  -ms-flex: 0 0 8.333333%;
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%
+}
+
+.col-2 {
+  -ms-flex: 0 0 16.666667%;
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%
+}
+
+.col-3 {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%
+}
+
+.col-4 {
+  -ms-flex: 0 0 33.333333%;
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%
+}
+
+.col-5 {
+  -ms-flex: 0 0 41.666667%;
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%
+}
+
+.col-6 {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%
+}
+
+.col-7 {
+  -ms-flex: 0 0 58.333333%;
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%
+}
+
+.col-8 {
+  -ms-flex: 0 0 66.666667%;
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%
+}
+
+.col-9 {
+  -ms-flex: 0 0 75%;
+  flex: 0 0 75%;
+  max-width: 75%
+}
+
+.col-10 {
+  -ms-flex: 0 0 83.333333%;
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%
+}
+
+.col-11 {
+  -ms-flex: 0 0 91.666667%;
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%
+}
+
+.col-12 {
+  -ms-flex: 0 0 100%;
+  flex: 0 0 100%;
+  max-width: 100%
+}
+
+.row{
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.right{
+  text-align: right;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

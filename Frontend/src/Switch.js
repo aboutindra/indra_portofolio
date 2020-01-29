@@ -1,5 +1,5 @@
 import {Routers} from "./Config";
-import {Switch, Route, BrowserRouter} from 'react-router-dom';
+import { Switch, Route, BrowserRouter } from 'react-router-dom';
 import React from "react";
 
 export default function Switchers() {
