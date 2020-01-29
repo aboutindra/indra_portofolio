@@ -1,6 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import './App.css';
+import './Assets/style/App.css';
 import Switchers from "./Switch";
 
 function App() {

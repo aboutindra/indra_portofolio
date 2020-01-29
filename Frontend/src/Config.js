@@ -1,4 +1,4 @@
-import HomeIndex from "./Components/Home/Index";
+import HomeIndex from "./Components/Index";
 
 export const Routers =
 [
