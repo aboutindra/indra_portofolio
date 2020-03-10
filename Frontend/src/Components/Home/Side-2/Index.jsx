@@ -8,7 +8,10 @@ export default function Side2Index() {
             </div>
             <div className=" Bg-1Side-2"></div>
             <div className="col-12 p-5">
-                <h1 className="Side2Title m-5">asddsa</h1>
+                <h1 className="Side2Title m-5">Main Tech</h1>
+                <div className="col-12">
+
+                </div>
             </div>
         </div>
     );
