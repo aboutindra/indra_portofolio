@@ -1,7 +1,4 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,900&display=swap');
-.App {
-
-}
 
 .em-facepunch,.em-punch{background-image:url("https://twemoji.maxcdn.com/2/72x72/1f44a.png")}.em-facepunch.em-svg,.em-punch.em-svg{background:url("https://twemoji.maxcdn.com/2/72x72/1f44a.png");background-image:url("https://twemoji.maxcdn.com/2/svg/1f44a.svg"),none}
 .em-sunglasses{background-image:url("https://twemoji.maxcdn.com/2/72x72/1f60e.png")}.em-sunglasses.em-svg{background:url("https://twemoji.maxcdn.com/2/72x72/1f60e.png");background-image:url("https://twemoji.maxcdn.com/2/svg/1f60e.svg"),none}
@@ -11,6 +8,7 @@ mark{
   background-color: rgba(252, 74, 26, 1);
   color: white;
 }
+
 
 .border{
   width: 100%;
@@ -157,8 +155,33 @@ mark{
   position: absolute;
 }
 
+.whiteOrange{
+  color: white;
+  background-color: rgba(247, 183, 51, 0.54);
+}
+
 .Side2Title{
+  top: 400px;
+  left: 10%;
   position: absolute;
+  font-family: 'Raleway', sans-serif;
+  font-size: 4em;
+}
+
+.Side2TitleNama{
+  font-family: 'Raleway', sans-serif;
+  font-size: 4em;
+  margin-top: -10%;
+}
+
+.fotoTitle{
+  width: 100%;
+  margin-top: 25%;
+
+}
+
+.foto{
+  width: 20em;
 }
 
 .p-5{
@@ -254,6 +277,30 @@ mark{
   flex-wrap:wrap;
 }
 
+.NavbarMobile{
+  position: fixed;
+  z-index: 999;
+  text-align: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #FC4A1A;
+}
+
+.btn-nav-mobile{
+  height: 5em;
+  cursor: pointer;
+  background-color: #61dafb;
+}
+
+FontAwesomeIcon{
+  width: 500px;
+}
+
+.btn-nav-mobile:hover{
+  background-color: #4ba3bd;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -279,5 +326,23 @@ mark{
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (min-width: 769px){
+  .NavbarIndex{
+    display: initial;
+  }
+  .NavbarMobile{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .NavbarIndex{
+    display: none;
+  }
+  .NavbarMobile{
+    display: initial;
   }
 }

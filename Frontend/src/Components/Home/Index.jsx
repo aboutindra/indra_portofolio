@@ -5,11 +5,13 @@ import Side3Index from "./Side-3/Index";
 import Side4Index from "./Side-4/Index";
 import Side5Index from "./Side-5/Index";
 import FooterIndex from "./Footer/Index";
+import NavbarMobile from "./Navbar/NavbarMobile";
 import React from "react";
 
 export default function HomeIndex() {
     return(
         <div className="HomeIndex">
+            <NavbarMobile/>
             <NavbarIndex/>
             <Side1Index/>
             <Side2Index/>
